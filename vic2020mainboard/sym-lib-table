@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name Vic2020mainboard-rescue)(type Legacy)(uri ${KIPRJMOD}/Vic2020mainboard-rescue.lib)(options "")(descr ""))
+	(version 7)
+	(lib (name "Vic2020mainboard-rescue") (type "Legacy") (uri "${KIPRJMOD}/Vic2020mainboard-rescue.lib") (options "") (descr ""))
+	(lib (name "Vic2020mainboard-cache") (type "Legacy") (uri "C:/Projects/WhyLee/GitHub_Vic2020_V2/vic2020mainboard/Vic2020mainboard-cache.lib") (options "") (descr "Veraltete Projektcache-Bibliothek"))
 )
