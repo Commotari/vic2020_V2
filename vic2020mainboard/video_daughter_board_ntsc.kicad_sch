@@ -3526,7 +3526,7 @@
 	)
 	(text "CLOCK"
 		(exclude_from_sim no)
-		(at 24.13 50.8 0)
+		(at 23.368 45.212 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -3559,6 +3559,12 @@
 		(uuid "12443e33-0151-4859-bf75-22bdb31f6863")
 	)
 	(junction
+		(at 236.22 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e727b65-63ec-49b1-8fa1-80e40fe72f7f")
+	)
+	(junction
 		(at 52.07 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3571,13 +3577,19 @@
 		(uuid "31ef64de-a835-4026-bdda-c74aeae78bc0")
 	)
 	(junction
+		(at 240.03 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3924d2e3-f1e2-4a80-83a5-9a813e9716b7")
+	)
+	(junction
 		(at 81.28 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ae289d3-ad44-48cf-a801-332adb22e3b7")
 	)
 	(junction
-		(at 240.03 93.98)
+		(at 236.22 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d56be11-2013-4485-b1e3-2ee69faed4bf")
@@ -3625,6 +3637,12 @@
 		(uuid "57cc8265-46ef-484c-a9a4-1487ce442bae")
 	)
 	(junction
+		(at 254 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f3761c-f78c-498d-b3d9-2d173a999bc4")
+	)
+	(junction
 		(at 120.65 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3637,7 +3655,7 @@
 		(uuid "679168ca-e694-42fa-838b-40758fb73c5e")
 	)
 	(junction
-		(at 227.33 93.98)
+		(at 223.52 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a075024-a3ff-4612-80ca-b2abfccc7454")
@@ -3653,12 +3671,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec7d951-f094-406d-9c01-cb8af329c1e4")
-	)
-	(junction
-		(at 240.03 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7caaa192-9764-475c-8dc5-68a4638bf40a")
 	)
 	(junction
 		(at 52.07 63.5)
@@ -3691,12 +3703,6 @@
 		(uuid "a584be86-6ed2-451c-b1b8-4358e84c07d2")
 	)
 	(junction
-		(at 254 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa081789-0648-48bc-81cd-aa509cf0770c")
-	)
-	(junction
 		(at 29.21 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3707,12 +3713,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8e39648-361a-4c42-adfd-1ccfcea9047c")
-	)
-	(junction
-		(at 240.03 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf453deb-e1f2-4b2d-b3c8-a4813cb274f4")
 	)
 	(junction
 		(at 255.27 139.7)
@@ -3727,7 +3727,7 @@
 		(uuid "c886f137-6fda-4b1b-86de-1040b761423a")
 	)
 	(junction
-		(at 227.33 101.6)
+		(at 223.52 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3d9ee05-2133-4b09-a93d-9fb85c9bdae0")
@@ -3880,7 +3880,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 101.6) (xy 227.33 101.6)
+			(xy 236.22 101.6) (xy 223.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4020,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 101.6) (xy 224.79 101.6)
+			(xy 223.52 101.6) (xy 220.98 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4030,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 93.98) (xy 227.33 93.98)
+			(xy 240.03 118.11) (xy 240.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35183cae-ee52-41a6-945f-2e336a119fad")
+	)
+	(wire
+		(pts
+			(xy 226.06 93.98) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4100,7 +4110,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 101.6) (xy 240.03 101.6)
+			(xy 243.84 101.6) (xy 236.22 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 123.19) (xy 240.03 134.62)
+			(xy 240.03 125.73) (xy 240.03 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4340,7 +4350,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 93.98) (xy 246.38 93.98)
+			(xy 236.22 93.98) (xy 246.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4580,16 +4590,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 102.87) (xy 246.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9691a7d0-bce5-4bef-8dc3-741e715b1056")
-	)
-	(wire
-		(pts
 			(xy 201.93 115.57) (xy 223.52 115.57)
 		)
 		(stroke
@@ -4710,7 +4710,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 93.98) (xy 224.79 93.98)
+			(xy 223.52 93.98) (xy 220.98 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4870,16 +4870,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 99.06) (xy 254 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2d54db5-3e6a-411a-b1b5-ab9ca5703c81")
-	)
-	(wire
-		(pts
 			(xy 29.21 76.2) (xy 35.56 76.2)
 		)
 		(stroke
@@ -4897,6 +4887,16 @@
 			(type default)
 		)
 		(uuid "d76ba1c1-0418-478b-978b-71fee4a2a062")
+	)
+	(wire
+		(pts
+			(xy 254 101.6) (xy 254 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfeac7b-49d7-4c08-b401-42e803a85ac9")
 	)
 	(wire
 		(pts
@@ -5010,6 +5010,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 101.6) (xy 254 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f479da10-7d1c-4536-88ed-54df291f131f")
+	)
+	(wire
+		(pts
 			(xy 63.5 87.63) (xy 58.42 87.63)
 		)
 		(stroke
@@ -5060,7 +5070,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 93.98) (xy 240.03 93.98)
+			(xy 233.68 93.98) (xy 236.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5374,7 @@
 	)
 	(global_label "VICAUDIO"
 		(shape input)
-		(at 224.79 93.98 180)
+		(at 220.98 93.98 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -5373,7 +5383,7 @@
 		)
 		(uuid "4d463107-b286-4261-97ba-28ceab8c3f08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.79 93.98 0)
+			(at 220.98 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5824,6 +5834,28 @@
 			)
 		)
 	)
+	(global_label "VIDEOOUT"
+		(shape input)
+		(at 269.24 139.7 0)
+		(effects
+			(font
+				(size 1.1938 1.1938)
+			)
+			(justify left)
+		)
+		(uuid "b63c99b0-55f3-4be4-b242-9426f0bf5a67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "BD2"
 		(shape input)
 		(at 149.86 147.32 0)
@@ -6118,11 +6150,17 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 240.03 119.38 0)
+		(at 240.03 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6132,7 +6170,7 @@
 		(dnp no)
 		(uuid "0b12fa8f-409f-4065-8594-c8c46f0027d8")
 		(property "Reference" "R19"
-			(at 241.808 118.2116 0)
+			(at 241.808 120.7516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6143,7 +6181,7 @@
 			)
 		)
 		(property "Value" "1.8K"
-			(at 240.03 121.92 90)
+			(at 240.03 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6154,7 +6192,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 238.252 119.38 90)
+			(at 238.252 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,7 +6203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 119.38 0)
+			(at 240.03 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6176,7 +6214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 119.38 0)
+			(at 240.03 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6198,11 +6236,17 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 250.19 102.87 270)
+		(at 247.65 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6212,7 +6256,7 @@
 		(dnp no)
 		(uuid "0d452114-1d7f-4f41-8d11-e226ee5d04f0")
 		(property "Reference" "R21"
-			(at 248.92 100.33 90)
+			(at 246.38 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6222,7 +6266,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 250.19 102.87 90)
+			(at 247.65 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6232,7 +6276,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 250.19 101.092 90)
+			(at 247.65 99.822 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6243,7 +6287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 102.87 0)
+			(at 247.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 102.87 0)
+			(at 247.65 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6272,6 +6316,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "R21")
 					(unit 1)
 				)
@@ -6356,11 +6406,17 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 101.6 270)
+		(at 220.98 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6370,7 +6426,7 @@
 		(dnp no)
 		(uuid "14dba7ab-889d-4302-9fe9-292e781d96f5")
 		(property "Reference" "#PWR0137"
-			(at 218.44 101.6 0)
+			(at 214.63 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,7 +6437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.5388 101.727 90)
+			(at 217.7288 101.727 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6392,7 +6448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 101.6 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 101.6 0)
+			(at 220.98 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6414,7 +6470,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.79 101.6 0)
+			(at 220.98 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6429,6 +6485,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR0137")
 					(unit 1)
 				)
@@ -6507,6 +6569,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "R4")
 					(unit 1)
 				)
@@ -6591,6 +6659,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6667,6 +6741,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6690,7 +6770,7 @@
 				)
 			)
 		)
-		(property "Value" "6560"
+		(property "Value" "6560-101"
 			(at 129.54 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,6 +6941,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "U20")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6934,6 +7020,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR0171")
 					(unit 1)
 				)
@@ -7013,6 +7105,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "FB5")
 					(unit 1)
 				)
@@ -7097,6 +7195,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7169,6 +7273,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR0114")
 					(unit 1)
 				)
@@ -7251,6 +7361,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7327,6 +7443,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "J4")
 					(unit 1)
 				)
@@ -7445,6 +7567,12 @@
 					(unit 2)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "U1")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7524,6 +7652,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "FB8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7598,6 +7732,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "R36")
 					(unit 1)
 				)
@@ -7688,6 +7828,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7766,6 +7912,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7840,6 +7992,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C11")
 					(unit 1)
 				)
@@ -7924,6 +8082,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7999,6 +8163,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "FB6")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "FB6")
 					(unit 1)
 				)
@@ -8083,11 +8253,17 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 233.68 93.98 270)
+		(at 229.87 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8097,7 +8273,7 @@
 		(dnp no)
 		(uuid "79677e60-c641-435f-82e7-8dde31ea8770")
 		(property "Reference" "R18"
-			(at 233.68 91.44 90)
+			(at 229.87 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8107,7 +8283,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 233.68 93.98 90)
+			(at 229.87 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8117,7 +8293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 233.68 92.202 90)
+			(at 229.87 92.202 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,7 +8304,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 93.98 0)
+			(at 229.87 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,7 +8315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 93.98 0)
+			(at 229.87 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8157,6 +8333,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "R18")
 					(unit 1)
 				)
@@ -8233,6 +8415,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR0113")
 					(unit 1)
 				)
@@ -8317,11 +8505,17 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 240.03 97.79 0)
+		(at 236.22 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8331,7 +8525,7 @@
 		(dnp no)
 		(uuid "8594ce58-ae76-47ba-9c73-e7671a8973c1")
 		(property "Reference" "C10"
-			(at 242.951 96.6216 0)
+			(at 239.141 96.6216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8342,7 +8536,7 @@
 			)
 		)
 		(property "Value" ".1uf"
-			(at 242.951 98.933 0)
+			(at 239.141 98.933 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8353,7 +8547,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 240.9952 101.6 0)
+			(at 237.1852 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8364,7 +8558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 97.79 0)
+			(at 236.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8375,7 +8569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 97.79 0)
+			(at 236.22 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8393,6 +8587,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C10")
 					(unit 1)
 				)
@@ -8511,6 +8711,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8583,6 +8789,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR0140")
 					(unit 1)
 				)
@@ -8666,6 +8878,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8742,11 +8960,17 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 227.33 97.79 0)
+		(at 223.52 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8756,7 +8980,7 @@
 		(dnp no)
 		(uuid "973cf222-f11a-4cab-8ab6-340e3b22d138")
 		(property "Reference" "C7"
-			(at 230.251 96.6216 0)
+			(at 226.441 96.6216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8767,7 +8991,7 @@
 			)
 		)
 		(property "Value" ".01uf"
-			(at 230.251 98.933 0)
+			(at 226.441 98.933 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8778,7 +9002,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
-			(at 228.2952 101.6 0)
+			(at 224.4852 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,7 +9013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 97.79 0)
+			(at 223.52 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8800,7 +9024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 97.79 0)
+			(at 223.52 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8818,6 +9042,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C7")
 					(unit 1)
 				)
@@ -8845,8 +9075,8 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 44.45 47.5742 0)
+		(property "Value" "Crystal 14.31818MHz"
+			(at 41.656 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8896,6 +9126,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -8979,6 +9215,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "FB9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9053,6 +9295,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C3")
 					(unit 1)
 				)
@@ -9137,6 +9385,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9210,6 +9464,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -9292,6 +9552,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9365,6 +9631,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR0158")
 					(unit 1)
 				)
@@ -9448,6 +9720,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "FB7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9520,6 +9798,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "#PWR0142")
 					(unit 1)
 				)
@@ -9598,6 +9882,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C2")
 					(unit 1)
 				)
@@ -9682,6 +9972,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "C37")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9758,6 +10054,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C8")
 					(unit 1)
 				)
@@ -9877,6 +10179,12 @@
 					(unit 3)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "U1")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9951,6 +10259,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C39")
 					(unit 1)
 				)
@@ -10069,6 +10383,12 @@
 					(unit 4)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "U1")
+					(unit 4)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10143,6 +10463,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C40")
 					(unit 1)
 				)
@@ -10230,6 +10556,12 @@
 					(unit 1)
 				)
 			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10306,6 +10638,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "C38")
 					(unit 1)
 				)
@@ -10392,6 +10730,12 @@
 		(instances
 			(project "Vic2020mainboard"
 				(path "/12d04c73-63ad-40bc-ae6c-e2d479c94e97"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+			(project "video_daughter_board_ntsc"
+				(path "/b7af902b-8386-4429-afe2-f3c43b60b965"
 					(reference "Q2")
 					(unit 1)
 				)

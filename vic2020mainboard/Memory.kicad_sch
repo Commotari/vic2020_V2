@@ -3572,7 +3572,7 @@
 		(dnp no)
 		(uuid "00580c33-5aa6-4627-a386-810cd199dba8")
 		(property "Reference" "J2"
-			(at 135.89 80.01 90)
+			(at 135.128 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3583,7 +3583,7 @@
 			)
 		)
 		(property "Value" "A14 Kernel/Basic Select"
-			(at 139.7 81.28 90)
+			(at 138.938 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4363,7 +4363,7 @@
 		(dnp no)
 		(uuid "ee9f05f0-4daa-4751-809b-a660b6707737")
 		(property "Reference" "J1"
-			(at 123.19 95.25 0)
+			(at 124.206 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

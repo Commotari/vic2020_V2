@@ -6449,28 +6449,6 @@
 			)
 		)
 	)
-	(global_label "VIDEOOUT"
-		(shape input)
-		(at 273.05 74.93 0)
-		(effects
-			(font
-				(size 1.1938 1.1938)
-			)
-			(justify left)
-		)
-		(uuid "64d62386-b8ed-44e3-879e-bbe00d179b2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "BD4"
 		(shape input)
 		(at 113.03 148.59 0)
@@ -11081,83 +11059,6 @@
 			(project "Vic2020mainboard"
 				(path "/f98df84e-f5f2-4c35-84be-6093352134d0/00000000-0000-0000-0000-00005f5bc33e"
 					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000609c3b20")
-		(property "Reference" "#PWR0157"
-			(at 153.67 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 150.5712 102.743 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d0341d2f-87e7-45f6-a0c6-d4f147ddf4ad")
-		)
-		(instances
-			(project "Vic2020mainboard"
-				(path "/f98df84e-f5f2-4c35-84be-6093352134d0/00000000-0000-0000-0000-00005f5bc33e"
-					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
